@@ -20,7 +20,9 @@ function sumOfNumbers(count,num) {
 let arrayOfNumbers = [1,2,3,4,5]
 let result = arrayOfNumbers.reduce(sumOfNumbers,0)
 console.log(result)
-/**
+
+assignment.sumOfNumbers = sumOfNumbers
+  /**
  * Challenge - 2
  * 
  * Count all even numbers within an array of numbers.

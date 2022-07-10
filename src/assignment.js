@@ -16,6 +16,7 @@ const assignment = {};
 function sumOfNumbers(arrayOfNumbers) {
  return  arrayOfNumbers.reduce((a,b) => a + b,0)
 }
+console.log(sumOfNumbers([1,2,3]))
 
 assignment.sumOfNumbers = sumOfNumbers
   /**

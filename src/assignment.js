@@ -31,7 +31,7 @@ console.log(result)
  */
 function countEvenNumbers(arrayOfNumbers) {
   return arrayOfNumbers.filter(x => x % 2 == 0)}
-}
+
 console.log(countEvenNumbers([1,2,3,4,5,6]))
 
 
